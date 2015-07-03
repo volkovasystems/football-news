@@ -1,0 +1,52 @@
+{
+  "name": "football-news",
+  "version": "0.0.0",
+  "homepage": "https://github.com/volkovasystems/football-news",
+  "authors": [
+    "Richeve S. Bebedor <volkovasystems@gmail.com>"
+  ],
+  "description": "Football News and Highlights Aggregation App",
+  "main": "./server/main.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "football"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "moment": "~2.8.3",
+    "react": "~0.12.0",
+    "angular-bootstrap": "~0.11.2",
+    "bootstrap": "~3.2.0",
+    "lodash": "~2.4.1",
+    "angular": "~1.2.25",
+    "async": "~0.9.0",
+    "spin.js": "fgnass/spin.js#~2.0.1",
+    "mathjs": "~1.0.1",
+    "stringjs": "~2.2.0",
+    "pubsub.js": "https://github.com/Sahadar/pubsub.js.git",
+    "angular-loading-bar": "~0.6.0",
+    "node-uuid": "https://github.com/broofa/node-uuid.git#~1.4.1",
+    "jquery.storage.js": "https://github.com/yckart/jquery.storage.js.git#~0.0.3",
+    "jquery.cookie": "https://github.com/carhartl/jquery-cookie.git#~1.4.1",
+    "URIjs": "https://github.com/medialize/URI.js.git#~1.14.1",
+    "history.js": "https://github.com/browserstate/history.js.git#~1.8.0"
+  },
+  "resolutions": {
+    "react": "~0.12.0",
+    "node-uuid": "~2.0.1"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
